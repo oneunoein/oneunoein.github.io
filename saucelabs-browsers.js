@@ -1,5 +1,3 @@
-// Browsers on Sauce Labs
-// Check out https://saucelabs.com/platforms for all browser/platform combos
 // and https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
 module.exports = {
   // Chrome

@@ -126,7 +126,7 @@ function releaseDone(error) {
 
 function updateReadmeFileSizes() {
 	var files = require('./barcode-building.json');
-	var readme = fs.readFileSync('README.md', "utf-8");
+	var readme = fs.readFileSync("utf-8");
 
 	// Update .all files
 	var allData = fs.readFileSync('dist/JsBarcode.all.min.js');

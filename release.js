@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-// Release automation script inspired by
-// https://github.com/geddski/grunt-release
-
 var fs = require('fs');
 var path = require('path');
 

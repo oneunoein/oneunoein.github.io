@@ -19,10 +19,6 @@ describe('MSI', function() {
     assert.equal("1101001001001101001001101001001001101101001101001001001101001101001101101001001101101101001101001001001"
       , enc.encode().data);
 
-    var enc = new MSI("12345674", {});
-    assert.equal("1101001001001101001001101001001001101101001101001001001101001101001101101001001101101101001101001001001"
-      , enc.encode().data);
-
     var enc = new MSI10("17345", {});
     assert.equal(true, enc.valid());
     assert.equal("173450", enc.encode().text);

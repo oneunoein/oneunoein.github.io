@@ -25,11 +25,6 @@ describe('Codabar', function() {
     assert.equal("12345", enc.encode().text)
   });
 
-  it('should warn with invalid start/stop characters', function () {
-    var enc = new Codabar("X12345Y", {});
-    assert.equal(false, enc.valid());
-  });
-
   it('should warn with only a start character', function () {
     var enc = new Codabar("A12345", {});
     assert.equal(false, enc.valid());

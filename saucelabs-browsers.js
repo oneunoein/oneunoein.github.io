@@ -37,12 +37,4 @@ module.exports = {
     platform: "Windows 8",
     version: "10",
   },
-
-  // MS Edge
-  sauce_windows_edge: {
-    base: "SauceLabs",
-    browserName: "MicrosoftEdge",
-    platform: "Windows 10",
-    version: "latest",
-  },
 };

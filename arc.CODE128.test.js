@@ -4,12 +4,6 @@ var Canvas = require("canvas");
 
 
 describe('CODE128', function() {
-  it('should be able to include the encoder(s)', function () {
-    CODE128 = JsBarcode.getModule("CODE128");
-    CODE128A = JsBarcode.getModule("CODE128A");
-    CODE128B = JsBarcode.getModule("CODE128B");
-    CODE128C = JsBarcode.getModule("CODE128C");
-  });
 
   it('should encode CODE128A', function () {
     var enc = new CODE128A("ABC" + String.fromCharCode(25), {});

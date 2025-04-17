@@ -1,5 +1,3 @@
-# This snippet has been shmelessly stol^Hborrowed from thestinger's repose Makefile
-VERSION = 1.4
 GIT_DESC=$(shell test -d .git && git describe --always 2>/dev/null)
 
 ifneq "$(GIT_DESC)" ""

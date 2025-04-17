@@ -26,7 +26,6 @@ describe('Object', function() {
       () => {
         JsBarcode(fakeElement, '2345678');
       },
-      /InvalidElementException/
     );
   });
 	

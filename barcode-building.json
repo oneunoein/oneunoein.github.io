@@ -9,11 +9,7 @@
     "names": ["CODE128, CODE128A, CODE128B, CODE128C"],
     "barcodeFile": "./CODE128"
   },
-  {
-    "name": "ean-upc",
-    "names": "EAN13, EAN8, EAN5, EAN2, UPC",
-    "barcodeFile": "./EAN_UPC"
-  },
+
   {
     "name": "itf",
     "names": "ITF, ITF14",

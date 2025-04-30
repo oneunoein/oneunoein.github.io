@@ -19,5 +19,10 @@
     "name": "msi",
     "names": "MSI, MSI10, MSI11, MSI1010, MSI1110",
     "barcodeFile": "./MSI"
+  },
+  {
+    "name": "msi",
+    "names": "MSI, MSI10, MSI11, MSI1010, MSI1110",
+    "barcodeFile": "./MSI"
   }
 ]

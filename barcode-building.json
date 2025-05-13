@@ -26,3 +26,8 @@
     "barcodeFile": "./MSI"
   }
 ]
+  {
+    "name": "itf",
+    "names": "ITF, ITF14",
+    "barcodeFile": "./ITF"
+  },

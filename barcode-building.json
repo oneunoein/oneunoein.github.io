@@ -35,4 +35,35 @@
     "names": "MSI, MSI10, MSI11, MSI1010, MSI1110",
     "barcodeFile": "./MSI"
   }
+    {
+    "name": "code39",
+    "names": "CODE39",
+    "barcodeFile": "./CODE39"
+  },
+  {
+    "name": "code128",
+    "names": ["CODE128, CODE128A, CODE128B, CODE128C"],
+    "barcodeFile": "./CODE128"
+  },
+
+  {
+    "name": "itf",
+    "names": "ITF, ITF14",
+    "barcodeFile": "./ITF"
+  },
+  {
+    "name": "msi",
+    "names": "MSI, MSI10, MSI11, MSI1010, MSI1110",
+    "barcodeFile": "./MSI"
+  },
+  {
+    "name": "msi",
+    "names": "MSI, MSI10, MSI11, MSI1010, MSI1110",
+    "barcodeFile": "./MSI"
+  },
+  {
+    "name": "itf",
+    "names": "ITF, ITF14",
+    "barcodeFile": "./ITF"
+  },
 ]

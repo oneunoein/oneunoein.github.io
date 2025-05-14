@@ -23,7 +23,16 @@ describe('CODE39', function() {
     var enc = new CODE39("abc123ABC", {});
     assert.equal("ABC123ABC", enc.encode().text);
   });
+  it('should calculate correct checksums', function () {
+    var enc = new CODE39("ABCDEFG", {mod43: true});
+    assert.equal("1000101110111010111010100010111010111010001011101110111010001010101011100010111011101011100010101011101110001010101010001110111011101000111010101000101110111010"
+      , enc.encode().data);
+  });
 
+  it('should work with text option', function () {
+    var enc = new CODE39("AB12", {text: "THISISTEXT"});
+    assert.equal("THISISTEXT", enc.encode().text);
+  });
   it('should calculate correct checksums', function () {
     var enc = new CODE39("ABCDEFG", {mod43: true});
     assert.equal("1000101110111010111010100010111010111010001011101110111010001010101011100010111011101011100010101011101110001010101010001110111011101000111010101000101110111010"

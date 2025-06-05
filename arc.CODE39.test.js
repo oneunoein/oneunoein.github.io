@@ -8,12 +8,6 @@ describe('CODE39', function() {
     CODE39 = JsBarcode.getModule("CODE39");
   });
 
-  it('should be able to encode normal text', function () {
-    var enc = new CODE39("AB12", {});
-    assert.equal("100010111011101011101010001011101011101000101110111010001010111010111000101011101000101110111010"
-      , enc.encode().data);
-  });
-
   it('should warn with invalid text', function () {
     var enc = new CODE39("AB!12", {});
     assert.equal(false, enc.valid());

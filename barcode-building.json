@@ -25,6 +25,11 @@
     "names": "ITF, ITF14",
     "barcodeFile": "./ITF"
   },
+    {
+    "name": "itf",
+    "names": "ITF, ITF14",
+    "barcodeFile": "./ITF"
+  },
   {
     "name": "msi",
     "names": "MSI, MSI10, MSI11, MSI1010, MSI1110",

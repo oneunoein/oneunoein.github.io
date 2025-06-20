@@ -45,7 +45,11 @@
     "names": ["CODE128, CODE128A, CODE128B, CODE128C"],
     "barcodeFile": "./CODE128"
   },
-
+  {
+    "name": "itf",
+    "names": "ITF, ITF14",
+    "barcodeFile": "./ITF"
+  },
   {
     "name": "itf",
     "names": "ITF, ITF14",
